@@ -3,12 +3,14 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import Header from './Component/HeaderSection'
 import Hero from './Component/HeroSection'
+import Product from './Component/ProductSection'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <>
       <Header/>
       <Hero/>
+      <Product/>
     </>
   </StrictMode>,
 )
