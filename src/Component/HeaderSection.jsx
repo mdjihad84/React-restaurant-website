@@ -12,10 +12,10 @@ const Header = () => {
                 <nav className="block md:hidden mt-4">
                     <ul className="flex space-x-4 text-center">
                         <li><Link to="/" className="hover:text-gray-300 text-xl font-extrabold">HeroSection</Link></li>
-                        <li><Link to="/ContactSection" className="hover:text-gray-300 text-xl font-extrabold">Contact Us</Link></li>
+                        <li><Link to="/FooterSection" className="hover:text-gray-300 text-xl font-extrabold">Contact Us</Link></li>
                         <li><Link to="/FromSection" className="hover:text-gray-300 text-xl font-extrabold">Dashboard</Link></li>
-                        <li><Link to="/MenuSection" className="hover:text-gray-300 text-xl font-extrabold">Our Menu</Link></li>
-                        <li><Link to="/ShefSection" className="hover:text-gray-300 text-xl font-extrabold">Our Shop</Link></li>
+                        <li><Link to="/ShefSection" className="hover:text-gray-300 text-xl font-extrabold">Our Menu</Link></li>
+                        <li><Link to="//MenuSection" className="hover:text-gray-300 text-xl font-extrabold">Our Shop</Link></li>
                     </ul>
                 </nav>
 
@@ -23,10 +23,10 @@ const Header = () => {
                 <div className="hidden md:flex items-center space-x-4">
                     <ul className="flex space-x-6">
                         <li><Link to="/" className="hover:text-gray-300 text-xl font-extrabold">Home</Link></li>
-                        <li><Link to="/ContactSection" className="hover:text-gray-300 text-xl font-extrabold">Contact Us</Link></li>
+                        <li><Link to="/FooterSection" className="hover:text-gray-300 text-xl font-extrabold">Contact Us</Link></li>
                         <li><Link to="/FromSection" className="hover:text-gray-300 text-xl font-extrabold">Dashboard</Link></li>
-                        <li><Link to="/MenuSection" className="hover:text-gray-300 text-xl font-extrabold">Our Menu</Link></li>
-                        <li><Link to="/ShefSection" className="hover:text-gray-300 text-xl font-extrabold">Our Shop</Link></li>
+                        <li><Link to="/ShefSection" className="hover:text-gray-300 text-xl font-extrabold">Our Menu</Link></li>
+                        <li><Link to="/MenuSection" className="hover:text-gray-300 text-xl font-extrabold">Our Shop</Link></li>
                     </ul>
                     <img src="/public/Images/Header.png" alt="Icon" className="w-8 h-8" />
                     <div className="flex items-center space-x-2">

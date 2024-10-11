@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";  // Import Main layout component
 import HeroSection from "../Component/HeroSection";
-import ContactSection from "../Component/ContactSection";
+import FooterSection from "../Component/FooterSection";
 import MenuSection from "../Component/FromSection";
 import ShefSection from "../Component/ShefSection";
 import FromSection from "../Component/FromSection";
@@ -16,20 +16,20 @@ export const router = createBrowserRouter([
                 element: <HeroSection />,
             },
             {
-                path: "/contact",
-                element: <ContactSection />,
+                path: "/FooterSection",
+                element: <FooterSection />,
             },
             {
-                path: "/from",
+                path: "/FromSection",
                 element: <FromSection />,
             },
             {
-                path: "/menu",
-                element: <MenuSection />,
+                path: "/ShefSection",
+                element: <ShefSection />,
             },
             {
-                path: "/chef",
-                element: <ShefSection />,
+                path: "/MenuSection",
+                element: <MenuSection />,
             },
         ],
     },
