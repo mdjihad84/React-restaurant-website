@@ -5,6 +5,7 @@ import Header from './Component/HeaderSection'
 import Hero from './Component/HeroSection'
 import Product from './Component/ProductSection'
 import Menu from './Component/MenuSection'
+import Contact from './Component/ContactSection'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')).render(
       <Hero/>
       <Product/>
       <Menu/>
+      <Contact/>
     </>
   </StrictMode>,
 )

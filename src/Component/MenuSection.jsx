@@ -86,8 +86,10 @@ const Menu = () => {
                     </div>
                </div>
             </div>
+            <div className="">
+                <h4 className="text-center text-xl text-[#1F2937]">View Full  Menu</h4>
+            </div>
         </div>
     );
 };
-
 export default Menu;
