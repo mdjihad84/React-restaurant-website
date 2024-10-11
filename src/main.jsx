@@ -8,6 +8,7 @@ import Menu from './Component/MenuSection'
 import Contact from './Component/ContactSection'
 import Shef from './Component/ShefSection'
 import Form from './Component/FromSection'
+import Testimonials from './Component/Testimonials'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
       <Contact/>
       <Shef/>
       <Form/>
+      <Testimonials/>
     </>
   </StrictMode>,
 )
