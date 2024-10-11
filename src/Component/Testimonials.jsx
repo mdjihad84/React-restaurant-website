@@ -15,16 +15,14 @@ const Testimonials = () => {
                 <i className="fa-regular fa-star"></i>
             </div>
             <div className="mt-2">
-    <img src="/public/Images/Group.png" className="mx-auto" alt="Group-img" />
-    <p className="mx-auto w-[870px] text-center mt-4">
-        <i className="fa-solid fa-arrow-left text-blue-500 text-xl mr-2 mr-10"></i>
-        Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humor<i className="fa-solid fa-arrow-right text-blue-500 text-xl ml-10"></i> and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-    </p>
-    <h3 className="text-center text-[#CD9003] text-3xl mt-4">JANE DOE</h3>
-</div>
-
+                <img src="/public/Images/Group.png" className="mx-auto" alt="Group-img" />
+                <p className="mx-auto w-[935px] text-center mt-4">
+                    <i className="fa-solid fa-arrow-left text-blue-500 text-xl mr-2 mr-10"></i>
+                    Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humor<i className="fa-solid fa-arrow-right text-blue-500 text-xl ml-10"></i> and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                </p>
+                <h3 className="text-center text-[#CD9003] text-3xl mt-4">JANE DOE</h3>
+            </div>
         </div>
     );
 };
-
 export default Testimonials;
