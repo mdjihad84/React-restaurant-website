@@ -10,7 +10,7 @@ const Shef = () => {
             <div className="flex flex-col md:flex-row justify-center gap-10">
                 <div className="card w-full max-w-[350px] h-[541px] bg-[#F3F3F3]">
                     <div>
-                        <img src="/public/Images/Slide1.jpg" className="w-full h-[300px] object-cover" alt="" />
+                        <img src="/Images/Slide1.jpg" className="w-full h-[300px] object-cover" alt="" />
                     </div>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title text-black font-semibold text-2xl font-enter">Caeser Salad</h2>
@@ -22,7 +22,7 @@ const Shef = () => {
                 </div>
                 <div className="card w-full max-w-[350px] h-[541px] bg-[#F3F3F3]">
                     <div>
-                        <img src="/public/Images/Slide1.jpg" className="w-full h-[300px] object-cover" alt="" />
+                        <img src="/Images/Slide1.jpg" className="w-full h-[300px] object-cover" alt="" />
                     </div>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title text-black font-semibold text-2xl font-enter">Caeser Salad</h2>
@@ -34,7 +34,7 @@ const Shef = () => {
                 </div>
                 <div className="card w-full max-w-[350px] h-[541px] bg-[#F3F3F3]">
                     <div>
-                        <img src="/public/Images/Slide1.jpg" className="w-full h-[300px] object-cover" alt="" />
+                        <img src="/Images/Slide1.jpg" className="w-full h-[300px] object-cover" alt="" />
                     </div>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title text-black font-semibold text-2xl font-enter">Caeser Salad</h2>
