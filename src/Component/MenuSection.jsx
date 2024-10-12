@@ -3,10 +3,10 @@ const Menu = () => {
     return (
         <div>
             <div className="">
-                <p className="text-yellow-400 text-center mt-10">---Check it out---</p>
-                <hr className="w-[424px] h-[8px] mx-auto mt-8"/>
+                <p className="text-center text-xl font-normal italic text-[#D99904] mt-20">---Check it out---</p>
+                <hr className="w-[424px] h-[4px] mx-auto mt-8 mb-4 bg-[#E8E8E8]"/>
                 <h2 className="text-center text-4xl text-black">FROM OUR MENU</h2>
-                <hr className="w-[424px] h-[8px] mx-auto mt-10 mb-8"/>
+                <hr className="w-[424px] h-[4px] mx-auto mt-10 mb-8 mb-4 bg-[#E8E8E8]"/>
             </div>
             <div className="flex justify-center">
                 <div className="">
@@ -17,7 +17,7 @@ const Menu = () => {
                         <div className="">
                             <div className="flex">
                                 <h4 className="text-[#737373] text-xl mt-4">FISH PARMENTIER ------------------</h4>
-                                <p className="ml-3 text-yellow-400 mt-4 ml-8">$14.5</p>
+                                <p className="ml-3 text-[#BB8506] text-xl mt-4 ml-8">$14.5</p>
                             </div>
                             <p className="text-[#737373] mt-2">Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce</p>
                         </div>
@@ -29,7 +29,7 @@ const Menu = () => {
                         <div className="">
                             <div className="flex">
                                 <h4 className="text-[#737373] text-xl mt-4">FISH PARMENTIER ------------------</h4>
-                                <p className="ml-3 text-yellow-400 mt-4 ml-8">$14.5</p>
+                                <p className="ml-3 text-[#BB8506] text-xl mt-4 ml-8">$14.5</p>
                             </div>
                             <p className="text-[#737373] mt-2">Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce</p>
                         </div>
@@ -41,7 +41,7 @@ const Menu = () => {
                         <div className="">
                             <div className="flex">
                                 <h4 className="text-[#737373] text-xl mt-4">FISH PARMENTIER ------------------</h4>
-                                <p className="ml-3 text-yellow-400 mt-4 ml-8">$14.5</p>
+                                <p className="ml-3 text-[#BB8506] text-xl mt-4 ml-8">$14.5</p>
                             </div>
                             <p className="text-[#737373] mt-2">Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce</p>
                         </div>
@@ -55,7 +55,7 @@ const Menu = () => {
                         <div className="">
                             <div className="flex">
                                 <h4 className="text-[#737373] text-xl mt-4">FISH PARMENTIER ------------------</h4>
-                                <p className="ml-3 text-yellow-400 mt-4 ml-8">$14.5</p>
+                                <p className="ml-3 text-[#BB8506] text-xl mt-4 ml-8">$14.5</p>
                             </div>
                             <p className="text-[#737373] mt-2">Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce</p>
                         </div>
@@ -67,7 +67,7 @@ const Menu = () => {
                         <div className="">
                             <div className="flex">
                                 <h4 className="text-[#737373] text-xl mt-4">FISH PARMENTIER ------------------</h4>
-                                <p className="ml-3 text-yellow-400 mt-4 ml-8">$14.5</p>
+                                <p className="ml-3 text-[#BB8506] text-xl mt-4 ml-8">$14.5</p>
                             </div>
                             <p className="text-[#737373] mt-2">Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce</p>
                         </div>
@@ -79,7 +79,7 @@ const Menu = () => {
                         <div className="">
                             <div className="flex">
                                 <h4 className="text-[#737373] text-xl mt-4">FISH PARMENTIER ------------------</h4>
-                                <p className="ml-3 text-yellow-400 mt-4 ml-8">$14.5</p>
+                                <p className="ml-3 text-[#BB8506] text-xl mt-4 ml-8">$14.5</p>
                             </div>
                             <p className="text-[#737373] mt-2">Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce</p>
                         </div>
@@ -87,7 +87,7 @@ const Menu = () => {
                </div>
             </div>
             <div className="">
-                <h4 className="text-center text-xl text-[#1F2937]">View Full  Menu</h4>
+                <h4 className="text-center text-xl text-[#1F2937] font-normal">View Full  Menu</h4>
             </div>
         </div>
     );

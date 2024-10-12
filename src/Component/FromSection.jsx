@@ -2,10 +2,10 @@ const Form = () => {
     return (
         <div>
             <div className="mx-auto mt-20 relative mb-20">
-                <img src="/Images/LatestNews.jpg" className="w-full" alt="Latest News" />
+                <img src="/Images/LatestNews.jpg" className="w-full" alt="Latest News"/>
                 <div className="">
                     <div className="absolute mx-auto ml-[36%] mt-[-65%]">
-                        <p className="text-yellow-400 text-center mt-10">---Should Try---</p>
+                        <p className="text-center text-xl font-normal italic text-[#D99904] mt-20">---Should Try---</p>
                         <hr className="w-[424px] h-[4px] mx-auto mt-8 mb-4 bg-[#E8E8E8]" />
                         <h2 className="text-center text-4xl text-black">CHEF RECOMMENDS</h2>
                         <hr className="w-[424px] h-[4px] mx-auto mt-10 mb-8 bg-[#E8E8E8]" />

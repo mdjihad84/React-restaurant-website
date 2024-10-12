@@ -21,13 +21,13 @@ const Header = () => {
                 {/* Large devices */}
                 <div className="hidden md:flex items-center space-x-4">
                     <ul className="flex space-x-6">
-                        <li><Link to="/" className="hover:text-gray-300 text-xl font-extrabold">Home</Link></li>
+                        <li><Link to="/" className="text-[#EEFF25] hover:text-gray-300 text-xl font-extrabold">Home</Link></li>
                         <li><Link to="/FooterSection" className="hover:text-gray-300 text-xl font-extrabold">Contact Us</Link></li>
                         <li><Link to="/FromSection" className="hover:text-gray-300 text-xl font-extrabold">Dashboard</Link></li>
                         <li><Link to="/ShefSection" className="hover:text-gray-300 text-xl font-extrabold">Our Menu</Link></li>
                         <li><Link to="/MenuSection" className="hover:text-gray-300 text-xl font-extrabold">Our Shop</Link></li>
                     </ul>
-                    <img src="/public/Images/Header.png" alt="Icon" className="w-8 h-8" />
+                    <img src="/Images/Header.png" alt="Icon" className="w-8 h-8" />
                     <div className="flex items-center space-x-2">
                         <h4 className="hidden md:block text-xl font-extrabold">Sign Out</h4>
                         <i className="fa-solid fa-user text-xl"></i>
